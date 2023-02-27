@@ -1,4 +1,5 @@
 module.exports = {
+    base:"/base/",
     title:"大数据知识全栈",
     description:"个人笔记，费时费力，转载请注明出处",
     head:[
