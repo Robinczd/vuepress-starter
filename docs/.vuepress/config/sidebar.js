@@ -1,7 +1,7 @@
 let {
     genSidebar4Cplusplus, genSidebar4Database, genSidebar4Alg, genSidebar4Program, genSidebar4develop, genSidebar4microServices,
     genSidebar4method, genSidebar4Devops, genSidebar4project, genSidebar4booknote, genSidebar4interview, genSidebar4Article,
-    genSidebar4dailyUse, genSidebar4About, genSidebar4Grow, genSidebar4Vue
+    genSidebar4dailyUse, genSidebar4Grow, genSidebar4Vue
 } = require('./function.js')
 
 module.exports = {
@@ -19,7 +19,6 @@ module.exports = {
     "/md/interview/": genSidebar4interview(),
     "/md/article/": genSidebar4Article(),
     "/md/daily-use/": genSidebar4dailyUse(),
-    "/md/about/": genSidebar4About(),
     "/md/grow/": genSidebar4Grow(),
     "/md/vue/": genSidebar4Vue(),
 }

@@ -4,33 +4,28 @@ module.exports =
             text: '面试',
             items: [
                 {
-                    text: '初识大数据',
+                    text: '编程基础知识考核',
                     items: [
-                        { text: 'java', link: '/md/c++/basic/c++-basic-use.md' }
+                        { text: 'java', link: '/md/c++/basic/c++-basic-use.md' },
+                        { text: 'Jvm', link: '/md/c++/basic/c++-basic-use.md' },
+                        { text: '数据结构与算法', link: '/md/c++/basic/c++-basic-use.md' }
                     ]
                 },
                 {
-                    text: '1',
+                    text: '大数据基础知识考核',
                     items: [
-                        { text: '函数学习', link: '/md/c++/function/c++-function-Linux_Hook.md' }
+                        { text: 'linux', link: '/md/c++/function/c++-function-Linux_Hook.md' },
+                        { text: '组件原理', link: '/md/c++/function/c++-function-Linux_Hook.md' },
+                        { text: '项目经验', link: '/md/c++/function/c++-function-Linux_Hook.md' }
                     ]
                 },
                 {
-                    text: '2',
+                    text: '通用能力考核',
                     items: [
-                        { text: '知识点', link: '/md/c++/tips/c++-tips-copy-on-write.md' }
-                    ]
-                },
-                {
-                    text: 'C++ 新版本特性',
-                    items: [
-                        { text: '新版本特性 详解', link: '/md/c++/features/c++-features-index.md' }
-                    ]
-                },
-                {
-                    text: 'C++ IO框架',
-                    items: [
-                        { text: 'IO框架 详解', link: '/md/c++/io/c++-io-reuse.md' }
+                        { text: '表达能力', link: '/md/c++/tips/c++-tips-copy-on-write.md' },
+                        { text: '逻辑思维', link: '/md/c++/tips/c++-tips-copy-on-write.md' },
+                        { text: '性格', link: '/md/c++/tips/c++-tips-copy-on-write.md' },
+
                     ]
                 }
             ]
@@ -39,33 +34,21 @@ module.exports =
             text: '导读',
             items: [
                 {
-                    text: '初识大数据',
+                    text: '我的经历',
                     items: [
                         { text: 'java', link: '/md/c++/basic/c++-basic-use.md' }
                     ]
                 },
                 {
-                    text: '1',
+                    text: '适合人群',
                     items: [
                         { text: '函数学习', link: '/md/c++/function/c++-function-Linux_Hook.md' }
                     ]
                 },
                 {
-                    text: '2',
+                    text: '建议',
                     items: [
                         { text: '知识点', link: '/md/c++/tips/c++-tips-copy-on-write.md' }
-                    ]
-                },
-                {
-                    text: 'C++ 新版本特性',
-                    items: [
-                        { text: '新版本特性 详解', link: '/md/c++/features/c++-features-index.md' }
-                    ]
-                },
-                {
-                    text: 'C++ IO框架',
-                    items: [
-                        { text: 'IO框架 详解', link: '/md/c++/io/c++-io-reuse.md' }
                     ]
                 }
             ]
@@ -73,22 +56,23 @@ module.exports =
         {
             text: '初识大数据',
             items: [
-                { text: '领域算法', link: '/md/algorithm/domain/alg-domain-bloom-filter.md' },
-                { text: '分布式算法', link: '/md/algorithm/distribute/alg-distribute-raft.md' },
+                { text: '核心思想', link: '' },
+                { text: '发展与应用', link: '/md/algorithm/distribute/alg-distribute-raft.md' },
+                { text: 'hello bigdata', link: '/md/algorithm/distribute/alg-distribute-raft.md' },
             ]
         },
         {
             text: '编程基础',
             items: [
-                { text: 'java', link: '/md/algorithm/domain/alg-domain-bloom-filter.md' },
-                { text: 'scala', link: '/md/algorithm/distribute/alg-distribute-raft.md' },
-                { text: 'Jvm', link: '/md/algorithm/distribute/alg-distribute-raft.md' },
-                { text: '数据结构', link: '/md/algorithm/distribute/alg-distribute-raft.md' },
-                { text: '算法', link: '/md/algorithm/distribute/alg-distribute-raft.md' },
+                { text: 'java', link: '/md/basics/java/java.md' },
+                { text: 'scala', link: '/md/basics/scala/scala.md' },
+                { text: 'Jvm', link: '/md/basics/jvm/jvm.md' },
+                { text: '数据结构', link: '/md/basics/structure/structure.md' },
+                { text: '算法', link: '/md/basics/algorithm/algorithm.md' },
             ]
         },
         {
-            text: '组件',
+            text: '组件简介',
             items: [
                 {
                     text: '数据源',

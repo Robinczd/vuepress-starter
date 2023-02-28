@@ -993,56 +993,6 @@ function genSidebar4dailyUse() {
 
 }
 
-// About page
-function genSidebar4About() {
-    return [
-        {
-            title: "关于",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "me/about-me.md",
-                "me/about-blog-changelist.md",
-                "me/about-content-style.md",
-            ]
-        },
-        {
-            title: "电影",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "movie/about-movie-like.md",
-            ]
-        },
-        {
-            title: "音乐",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "music/about-music-like.md",
-            ]
-        },
-        {
-            title: "阅读",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "read/about-read-list.md",
-                "read/about-read-thinking.md",
-                "read/about-read-the-courage-to-be-hate.md",
-            ]
-        },
-        {
-            title: "风景",
-            collapsable: false,
-            sidebarDepth: 0,
-            children: [
-                "scenery/about-scenery-record.md",
-            ]
-        }
-    ];
-}
-
 // Grow page
 function genSidebar4Grow() {
     return [
@@ -1188,5 +1138,5 @@ function genSidebar4Vue() {
 module.exports = {
     genSidebar4Cplusplus, genSidebar4Database, genSidebar4Alg, genSidebar4Program, genSidebar4develop, genSidebar4microServices,
     genSidebar4method, genSidebar4Devops, genSidebar4project, genSidebar4booknote, genSidebar4interview, genSidebar4Article,
-    genSidebar4dailyUse, genSidebar4About, genSidebar4Grow,genSidebar4Vue
+    genSidebar4dailyUse, genSidebar4Grow,genSidebar4Vue
 };
